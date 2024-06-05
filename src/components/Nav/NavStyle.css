@@ -1,0 +1,138 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+}
+
+#nav .-brand {
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-items: center;
+    height: 100%;
+}
+
+#nav .-ham {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    cursor: pointer;
+    background-color: #fff;
+}
+#nav .-ham:hover {
+    background-color: #f2f2f2;
+}
+#nav .-ham img {
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+#nav .-center {
+    width: 732px;
+    display: grid;
+    grid-template-columns: 692px auto;
+    margin: 0 0 0 40px;
+    padding: 0 0 0 4px;
+    align-items: center;
+}
+
+#nav .-end {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 0 80px;
+}
+
+#nav .-search-input {
+    height: 40px;
+    width: 520px;
+    padding: 0 0 0 16px;
+    border: none;
+}
+
+#nav .-search {
+    width: 640px;
+    height: 40px;
+    margin: 0 0 0 32px;
+    padding: 0 0 0 16px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav .-voice {
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#nav .-voice img {
+    width: 24px;
+    height: 24px;
+}
+#nav .-voice:hover {
+    background-color: #e5e5e5;
+}
+
+#nav .-btn {
+    width: 64px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 0 40px 40px 0;
+    border: 1px solid #ccc;
+    border-left: 0;
+    cursor: pointer;
+}
+#nav .-btn img {
+    width: 24px;
+    height: 24px;
+}
+#nav .-btn:hover {
+    background-color: #e5e5e5;
+}
+
+#nav .-search-box {
+    width: 536px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+    overflow: hidden;
+}
+
+#nav .-search-input:focus-visible {
+    outline: none;
+}
+
+#nav .-end-item {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav .-end-item img {
+    width: 24px;
+    height: 24px;
+}
+#nav .-end-item:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
